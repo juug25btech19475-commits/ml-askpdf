@@ -9,6 +9,7 @@ pinned: false
 ---
 
 # 📄 AskMyDocs
+**Live demo:** https://ml-askpdf-pla5tjs299tcrsbagakjrr.streamlit.app
 
 A Retrieval-Augmented Generation (RAG) app that lets you upload PDFs and ask questions in plain language. Every answer is grounded in your document and includes **citations** (file name and page number), so you can verify it.
 

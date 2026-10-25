@@ -1,3 +1,13 @@
+---
+title: AskMyDocs
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 8501
+pinned: false
+---
+
 # 📄 AskMyDocs
 
 A Retrieval-Augmented Generation (RAG) app that lets you upload PDFs and ask questions in plain language. Every answer is grounded in your document and includes **citations** (file name and page number), so you can verify it.
@@ -66,8 +76,8 @@ askmydocs/
 You need Linux (or macOS/WSL), Python 3.10+ and a free Groq API key from [console.groq.com](https://console.groq.com).
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/askmydocs.git
-cd askmydocs
+git clone https://github.com/juug25btech19475-commits/ml-askpdf.git
+cd ml-askpdf
 
 python3 -m venv .venv
 source .venv/bin/activate
